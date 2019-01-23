@@ -17,12 +17,14 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   text-align: right;
+  z-index: 7;
 }
 
 header img {
   height: 50px;
   width: auto;
   position: absolute;
+  top: 10px;
   left: 10px;
 }
 
@@ -37,5 +39,23 @@ header li a {
 }
 
 #mission {
-  margin-top: 70px;
+  margin: 70px auto;
+  background-image: url(../images/mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1200px;
+  height: 700px;
+}
+
+#mission div {
+  background-color: black;
+  position: relative;
+  top: 40%;
+  width: 1200px;
+  height: 103px;
+  text-align: center;
+}
+
+#mission div h2 {
+  padding-top: 3px;
 }
