@@ -9,6 +9,7 @@ html {
   text-align: center;
 }
 
+/* styling of the header and navigation bar */
 header {
   height: 69px;
   width: 100%;
@@ -38,6 +39,7 @@ header li a {
   color: seashell;
 }
 
+/* styling of the mission statement */
 #mission {
   margin: 70px auto;
   background-image: url(../images/mission-background.jpg);
@@ -59,3 +61,31 @@ header li a {
 #mission div h2 {
   padding-top: 3px;
 }
+
+/* styling of the featured items */
+#featured {
+  width: 1000px;
+  margin: auto;
+}
+
+.flex-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin: 10px;
+  padding: 5px;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+}
+
+.item h4 {
+  margin-top: 10px;
+}
+
+/* styling of the locations */
